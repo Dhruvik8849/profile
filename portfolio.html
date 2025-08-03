@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Dhruvik Nagotha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="portfolio-page">
+    <canvas id="particle-canvas"></canvas>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">DN</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card card animate-on-scroll">
+                    <div class="project-info">
+                        <h3>BusHub</h3>
+                        <p>A full-stack web application for bus booking with user and admin roles, and Razorpay integration for mock payments.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card card animate-on-scroll">
+                    <div class="project-info">
+                        <h3>DSA Visualizer Tool</h3>
+                        <p>An educational desktop tool to visualize data structures like stacks, queues, trees, and graphs in real-time.</p>
+                         <div class="tech-stack">
+                            <span>Python</span><span>Tkinter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title animate-on-scroll">Career & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>Cybersecurity Analyst Simulation</h3>
+                        <p class="timeline-date">Tata Consultancy Services (Forage) | Jun 2025 - Jul 2025</p>
+                        <p>Completed practical tasks in Identity and Access Management (IAM), assessed enterprise strategies, and crafted custom solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>B.Tech, Computer Science</h3>
+                        <p class="timeline-date">Malaviya National Institute of Technology | 2023 - 2027</p>
+                        <p>Pursuing my undergraduate degree with a focus on Data Structures, Algorithms, and Web Development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

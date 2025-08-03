@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dhruvik Nagotha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="contact-page">
+    <canvas id="particle-canvas"></canvas>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">DN</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+             <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <h2 class="section-title animate-on-scroll">Let's Connect</h2>
+            <div class="contact-container">
+                <div class="contact-info card animate-on-scroll">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out. My inbox is always open!</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>dhruviknagotha736@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jaipur, Rajasthan, India</p>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://linkedin.com/in/dhruvik8849" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/dhruvik8849" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form card animate-on-scroll">
+                    <!-- 
+                        ACTION: This form now points to Formspree.
+                        You need to create your own Formspree endpoint and paste the URL here.
+                    -->
+                    <form action="https://formspree.io/f/xqaldnzy" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="SMS" required></textarea>
+                        </div>
+                        <!-- The button is now a standard submit button -->
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
