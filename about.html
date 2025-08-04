@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Dhruvik Nagotha</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body id="about-page">
     <canvas id="particle-canvas"></canvas>
-
     <header class="navbar">
         <a href="index.html" class="logo">DN</a>
-        </a>
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -22,11 +20,7 @@
                 <li><a href="achievements.html">Achievements</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
 
@@ -34,9 +28,7 @@
         <section class="section">
             <h2 class="section-title animate-on-scroll">Who I Am</h2>
             <div class="about-content card animate-on-scroll">
-                <div class="about-image">
-                    <img src="photo.jpg" alt="Dhruvik Nagotha">
-                </div>
+                <div class="about-image"><img src="photo.jpg" alt="Dhruvik Nagotha"></div>
                 <div class="about-text">
                     <h3>A Passionate Technologist from Jaipur.</h3>
                     <p>I am a motivated and detail-oriented Computer Science student at MNIT, driven by a passion for solving complex problems. My journey into technology is fueled by a relentless curiosity and a desire to build things that make a difference.</p>
@@ -44,38 +36,43 @@
                 </div>
             </div>
         </section>
-
         <section class="section">
             <h2 class="section-title animate-on-scroll">My Technical Toolbox</h2>
             <div class="skills-grid">
                 <div class="card skill-category animate-on-scroll">
                     <h3><i class="fas fa-code"></i> Languages</h3>
                     <ul>
-                        <li>C & C++</li>
-                        <li>Python & Java</li>
-                        <li>HTML, CSS, JavaScript</li>
+                        <li><a href="#">C & C++</a></li>
+                        <li><a href="#">Python & Java</a></li>
+                        <li><a href="#">HTML, CSS, JavaScript</a></li>
                     </ul>
                 </div>
                 <div class="card skill-category animate-on-scroll">
                     <h3><i class="fas fa-cogs"></i> Frameworks & Libraries</h3>
                     <ul>
-                        <li>Node.js, Express.js</li>
-                        <li>React, Bootstrap</li>
-                        <li>PostgreSQL</li>
+                        <li><a href="#">Node.js, Express.js</a></li>
+                        <li><a href="#">React, Bootstrap</a></li>
+                        <li><a href="#">PostgreSQL</a></li>
                     </ul>
                 </div>
                 <div class="card skill-category animate-on-scroll">
                     <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
                     <ul>
-                        <li>Git & GitHub</li>
-                        <li>VS Code & Linux</li>
-                        <li>Postman & Razorpay API</li>
+                        <li><a href="#">Git & GitHub</a></li>
+                        <li><a href="#">VS Code & Linux</a></li>
+                        <li><a href="#">Postman & Razorpay API</a></li>
                     </ul>
                 </div>
             </div>
         </section>
+        <div class="page-navigation-box card animate-on-scroll">
+            <h4>Explore More</h4>
+            <div class="section-nav">
+                <a href="index.html" class="nav-button"><i class="fas fa-arrow-left"></i> Back: Home</a>
+                <a href="portfolio.html" class="nav-button">Next: Portfolio <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
