@@ -10,7 +10,6 @@
 </head>
 <body id="contact-page">
     <canvas id="particle-canvas"></canvas>
-
     <header class="navbar">
         <a href="index.html" class="logo">DN</a>
         <nav>
@@ -21,11 +20,7 @@
                 <li><a href="achievements.html">Achievements</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
-             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
 
@@ -36,45 +31,69 @@
                 <div class="contact-info card animate-on-scroll">
                     <h3>Get In Touch</h3>
                     <p>I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out. My inbox is always open!</p>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>dhruviknagotha736@gmail.com</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Jaipur, Rajasthan, India</p>
-                    </div>
+                    <div class="info-item"><i class="fas fa-envelope"></i><p>dhruviknagotha736@gmail.com</p></div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i><p>Jaipur, Rajasthan, India</p></div>
                     <div class="contact-socials">
-                        <a href="https://linkedin.com/in/dhruvik8849" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/dhruvik8849" target="_blank"><i class="fab fa-github"></i></a>
+
+                        
+
+
+
+
+
+
+
+
+                        <div style="display: flex; gap: 16px; align-items: center;">
+  <!-- LeetCode -->
+  <a href="https://leetcode.com/u/Dhruvik_MYI/" target="_blank" aria-label="LeetCode"
+   style="width: 48px; height: 48px; background: #a6a79d; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+  <img src="https://assets.leetcode.com/static_assets/public/icons/favicon-32x32.png"
+       width="28" height="28" style="object-fit: contain;" alt="LeetCode">
+</a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/dhruvik8849" target="_blank" aria-label="GitHub"
+     style="width: 48px; height: 48px; background: #c6c8bb; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+         width="28" height="28" style="object-fit: contain;" alt="GitHub">
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/dhruvik8849" target="_blank" aria-label="LinkedIn"
+     style="width: 48px; height: 48px; background: #c6c8bb; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+         width="28" height="28" style="object-fit: contain;" alt="LinkedIn">
+  </a>
+</div>
+
+
+
+
+                        
+
+
+                        </a>
                     </div>
                 </div>
                 <div class="contact-form card animate-on-scroll">
-                    <!-- 
-                        ACTION: This form now points to Formspree.
-                        You need to create your own Formspree endpoint and paste the URL here.
-                    -->
                     <form action="https://formspree.io/f/xqaldnzy" method="POST">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="SMS" required></textarea>
-                        </div>
-                        <!-- The button is now a standard submit button -->
+                        <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="Name" required></div>
+                        <div class="form-group"><label for="email">Your Email</label><input type="email" id="email" name="Email" required></div>
+                        <div class="form-group"><label for="message">Your Message</label><textarea id="message" name="SMS" required></textarea></div>
                         <button type="submit" class="cta-button">Send Message</button>
                     </form>
                 </div>
             </div>
         </section>
+        <div class="page-navigation-box card animate-on-scroll">
+            <h4>Start Over?</h4>
+            <div class="section-nav">
+                <a href="achievements.html" class="nav-button"><i class="fas fa-arrow-left"></i> Back: Achievements</a>
+                <a href="index.html" class="nav-button">Back to Home <i class="fas fa-home"></i></a>
+            </div>
+        </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
