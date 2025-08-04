@@ -10,7 +10,6 @@
 </head>
 <body id="portfolio-page">
     <canvas id="particle-canvas"></canvas>
-
     <header class="navbar">
         <a href="index.html" class="logo">DN</a>
         <nav>
@@ -21,11 +20,7 @@
                 <li><a href="achievements.html">Achievements</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
 
@@ -33,27 +28,44 @@
         <section class="section">
             <h2 class="section-title animate-on-scroll">Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card card animate-on-scroll">
-                    <div class="project-info">
-                        <h3>BusHub</h3>
-                        <p>A full-stack web application for bus booking with user and admin roles, and Razorpay integration for mock payments.</p>
-                        <div class="tech-stack">
-                            <span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>Bootstrap</span>
+                
+                <!-- Tic Tac Toe Project -->
+                <a href="https://dhruvik8849.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                    <div class="project-card card animate-on-scroll">
+                        <div class="project-info">
+                            <h3>Tic Tac Toe Game</h3>
+                            <p>A classic Tic Tac Toe game featuring a sleek interface, two-player mode, and a solo mode against a "Dhruvik-Bot" AI with multiple difficulty levels.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="project-card card animate-on-scroll">
-                    <div class="project-info">
-                        <h3>DSA Visualizer Tool</h3>
-                        <p>An educational desktop tool to visualize data structures like stacks, queues, trees, and graphs in real-time.</p>
-                         <div class="tech-stack">
-                            <span>Python</span><span>Tkinter</span>
+                </a>
+
+                <!-- BusHub Project (Ready for your link) -->
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                    <div class="project-card card animate-on-scroll">
+                        <div class="project-info">
+                            <h3>BusHub</h3>
+                            <p>A full-stack web application for bus booking with user and admin roles, and Razorpay integration for mock payments.</p>
+                            <div class="tech-stack"><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>Bootstrap</span></div>
                         </div>
                     </div>
-                </div>
+                </a>
+                
+                <!-- DSA Visualizer Project (Ready for your link) -->
+                <a href="https://dsavisualizermyproject-dhruvik8849.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+                    <div class="project-card card animate-on-scroll">
+                        <div class="project-info">
+                            <h3>DSA Visualizer Tool</h3>
+                            <p>An educational desktop tool to visualize data structures like stacks, queues, trees, and graphs in real-time.</p>
+                            <div class="tech-stack"><span>Python</span><span>Tkinter</span></div>
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </section>
-
         <section class="section">
             <h2 class="section-title animate-on-scroll">Career & Education</h2>
             <div class="timeline">
@@ -61,7 +73,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content card">
                         <h3>Cybersecurity Analyst Simulation</h3>
-                        <p class="timeline-date">Tata Consultancy Services (Forage) | Jun 2025 - Jul 2025</p>
+                        <p class="timeline-date">Tata Consultancy Services (Forage) | Aug 2025 - Sep 2025</p>
                         <p>Completed practical tasks in Identity and Access Management (IAM), assessed enterprise strategies, and crafted custom solutions.</p>
                     </div>
                 </div>
@@ -69,14 +81,20 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content card">
                         <h3>B.Tech, Computer Science</h3>
-                        <p class="timeline-date">Malaviya National Institute of Technology | 2023 - 2027</p>
+                        <p class="timeline-date">Malaviya National Institute of Technology, Jaipur | 2023 - 2027</p>
                         <p>Pursuing my undergraduate degree with a focus on Data Structures, Algorithms, and Web Development.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="page-navigation-box card animate-on-scroll">
+            <h4>Explore More</h4>
+            <div class="section-nav">
+                <a href="about.html" class="nav-button"><i class="fas fa-arrow-left"></i> Back: About</a>
+                <a href="achievements.html" class="nav-button">Next: Achievements <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
