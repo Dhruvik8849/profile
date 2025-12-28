@@ -349,3 +349,37 @@ body { font-family: var(--font-sans); background-color: var(--bg-color); color: 
   align-items: center;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+/* Make qubits go behind everything including particle canvas */
+.float-qubit {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: -2; /* ✅ deeper background than canvas */
+}
+
+#main-qubit {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  width: 260px;
+  height: 260px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: -2; /* ✅ behind text + behind canvas */
+}
+
+/* Keep text on top */
+.hero-text {
+  position: relative;
+  z-index: 5;
+}
+
