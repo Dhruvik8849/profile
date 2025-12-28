@@ -47,11 +47,7 @@
   </nav>
 </header>
 
- 
 <main class="main-content">
-
-
-
   <section id="hero" class="section">
     <div class="hero-text animate-on-load">
       <p class="intro-text">Hello, I'm</p>
@@ -135,10 +131,10 @@ for (let i = 1; i <= 12; i++) {
   createQubit("q"+i, scales[i-1]);
 }
 
-// main qubit beside hero (larger)
+// main qubit beside hero (larger) → ID FIXED HERE
 createQubit("main-qubit", 2.6);
 
-// random positions + random sizes applied
+// random positions applied
 document.getElementById("q1").style.top  = "62%"; document.getElementById("q1").style.left  = "6%";
 document.getElementById("q2").style.top  = "78%"; document.getElementById("q2").style.right = "10%";
 document.getElementById("q3").style.top  = "66%"; document.getElementById("q3").style.left  = "42%";
