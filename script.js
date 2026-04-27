@@ -157,4 +157,32 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.animate-on-scroll').forEach(element => {
         observer.observe(element);
     });
+
+
+
+
+
+// --- Contact Form Submit (No Redirect) ---
+const form = document.getElementById("contact-form");
+
+if (form) {
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        fetch("https://formspree.io/f/xqaldnzy", {
+            method: "POST",
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+        });
+
+        form.reset();
+    });
+}
+
+
+
+
+
+    
+
 });
